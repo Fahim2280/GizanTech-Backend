@@ -29,5 +29,48 @@ Run the following command to install required packages:
 
 ```bash
 npm install
+```
 
+2. Configure Environment Variables
+
+Create a .env file in the project root and add the following:
+
+```bash
+JWT_SECRET=yourSecretKey
+PORT=3000
+```
+
+Replace yourSecretKey with a secure secret key for JWT.
+
+3. Start the Development Server
+
+To start the server in development mode:
+
+```bash
+npm run start:dev
+```
+
+4. Access the API
+
+Access the API at
+`http://localhost:3000/auth/login`,
+`http://localhost:3000/temperature/temperatureData`.
+
+## Project Structure
+
+The project structure is as follows:
+
+```bash
+src/
+├── auth/                # Authentication module
+│   ├── auth.module.ts   # Auth module definition
+│   ├── jwt.strategy.ts  # JWT strategy for authentication
+│   └── jwt-auth.guard.ts # Auth guard for protected routes
+├── temperature/         # Temperature module
+│   ├── temperature.controller.ts # API controller
+│   ├── temperature.service.ts    # Temperature service logic
+│   └── temperature.module.ts     # Module definition
+├── app.module.ts        # Main application module
+├── main.ts              # Application entry point
+└── app.controller.ts    # Main application controller
 ```
