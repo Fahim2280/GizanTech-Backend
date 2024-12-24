@@ -24,3 +24,10 @@ Ensure you have the following installed:
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
+
+---
+
+# Install Dependencies
+## Run the following command to install required packages:
+```bash
+npm install
