@@ -23,9 +23,9 @@ Ensure you have the following installed:
 
 ## Getting Started
 
-### 1. Install Dependencies
+1.  Install Dependencies
 
-#### Run the following command to install required packages:
+Run the following command to install required packages:
 
 ```bash
 npm install
