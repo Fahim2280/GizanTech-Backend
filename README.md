@@ -68,8 +68,10 @@ src/
 │   └── jwt-auth.guard.ts # Auth guard for protected routes
 ├── temperature/         # Temperature module
 │   ├── temperature.controller.ts # API controller
+│   ├── temperature.gateway.ts    # Websocket gateway
 │   ├── temperature.service.ts    # Temperature service logic
 │   └── temperature.module.ts     # Module definition
+│
 ├── app.module.ts        # Main application module
 ├── app.service.ts       # Main application service
 ├── app.controller.spec.ts # Main application controller tests
