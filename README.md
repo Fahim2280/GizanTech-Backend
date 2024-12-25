@@ -71,6 +71,9 @@ src/
 │   ├── temperature.service.ts    # Temperature service logic
 │   └── temperature.module.ts     # Module definition
 ├── app.module.ts        # Main application module
+├── app.service.ts       # Main application service
+├── app.controller.spec.ts # Main application controller tests
 ├── main.ts              # Application entry point
 └── app.controller.ts    # Main application controller
+
 ```
