@@ -66,11 +66,15 @@ src/
 │   ├── auth.module.ts   # Auth module definition
 │   ├── jwt.strategy.ts  # JWT strategy for authentication
 │   └── jwt-auth.guard.ts # Auth guard for protected routes
+│
 ├── temperature/         # Temperature module
 │   ├── temperature.controller.ts # API controller
 │   ├── temperature.gateway.ts    # Websocket gateway
 │   ├── temperature.service.ts    # Temperature service logic
 │   └── temperature.module.ts     # Module definition
+│
+├── middleware/          # Custom middleware
+│   └── logger.middleware.ts # Request logger middleware
 │
 ├── app.module.ts        # Main application module
 ├── app.service.ts       # Main application service
