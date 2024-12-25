@@ -17,7 +17,7 @@ Ensure you have the following installed:
 
 - [Node.js](https://nodejs.org/) (version 16 or higher)
 - [npm](https://www.npmjs.com/) (comes with Node.js)
-- [Git](https://git-scm.com/)   (Git Destop or Git Bash)
+- [Git](https://git-scm.com/) (Git Destop or Git Bash)
 
 ---
 
@@ -37,7 +37,7 @@ Create a .env file in the project root and add the following:
 
 ```bash
 JWT_SECRET=yourSecretKey
-PORT=3000
+PORT=7000
 ```
 
 Replace yourSecretKey with a secure secret key for JWT.
@@ -53,8 +53,8 @@ npm run start:dev
 4. Access the API
 
 Access the API at
-`http://localhost:3000/auth/login`,
-`http://localhost:3000/temperature/temperatureData`.
+`http://localhost:7000/auth/login`,
+`http://localhost:7000/temperature/temperatureData`.
 
 ## Project Structure
 

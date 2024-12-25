@@ -7,9 +7,9 @@ async function bootstrap() {
   const logger = new Logger('Bootstrap');
 
   app.useLogger(logger);
-
-  app.listen(3000).then(() => {
-    logger.log('Application is running on: http://localhost:3000');
+  app.enableCors();
+  app.listen(7000).then(() => {
+    logger.log('Application is running on: http://localhost:7000');
   });
 }
 bootstrap();
