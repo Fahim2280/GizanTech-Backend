@@ -17,7 +17,7 @@ Ensure you have the following installed:
 
 - [Node.js](https://nodejs.org/) (version 16 or higher)
 - [npm](https://www.npmjs.com/) (comes with Node.js)
-- [Git](https://git-scm.com/)
+- [Git](https://git-scm.com/)   (Git Destop or Git Bash)
 
 ---
 
